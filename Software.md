@@ -23,7 +23,6 @@ subtitle: Instructions for Windows
 - [Docker](#docker){:target="_self"}
 - [VS Code extensions](#vs-code-extensions){:target="_self"}
 - [Improving the bash configuration](#improving-the-bash-configuration){:target="_self"}
-- [Post-installation notes](#post-installation-notes){:target="_self"}
 
 ## Installation notes
 
