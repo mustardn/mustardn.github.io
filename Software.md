@@ -53,11 +53,11 @@ The open-source text editor Visual Studio Code (VS Code) is both a powerful text
     - "Register Code as an editor for supported file types"
     - "Add to PATH" (this should be selected by default).
 
-![](/resources_pages/imgs/vs_code.png)
+![](/assets/img/vs_code.png)
 
 ## GitHub
 
-In MDS we will use the publicly available [GitHub.com](https://github.com/) as well as an Enterprise version of GitHub hosted here at UBC, [GitHub.ubc.ca](https://github.ubc.ca). Please follow the set-up instructions for both below.
+Use the publicly available [GitHub.com](https://github.com/). Please follow the set-up instructions below.
 
 ### GitHub.com
 
@@ -83,7 +83,7 @@ run the installer and accept the default configuration for all pages except for 
 
 - On the **Choosing the default editor used by Git** page, select "Use Visual Studio Code as Git's default editor" from the drop-down menu'
 
-    ![](/resources_pages/imgs/vscode-as-git-editor.png)
+    ![](/assets/img/vscode-as-git-editor.png)
 
 [To install windows terminal visit this link](https://aka.ms/terminal)
 and click `Get` to open it in Windows Store.
@@ -100,7 +100,7 @@ In the `Startup` section,
 click the dropdown menu under `Default profile`
 and select `Git Bash`.
 
-![](/resources_pages/imgs/git-bash-default-shell.png)
+![](/assets/img/git-bash-default-shell.png)
 
 You can now launch the Windows terminal from the start menu
 or pin it to the taskbar like any other program
@@ -114,7 +114,7 @@ and the tab should read  `MINGW64:/c/Users/$USERNAME`
 (you should also see `/c/Users/$USERNAME` if you type `pwd` into the terminal).
 This screenshot shows what it should look like:
 
-![](/resources_pages/imgs/windows-terminal-gitbash.png)
+![](/assets/img/windows-terminal-gitbash.png)
 
 > **Note:** Whenever we refer to "the terminal" in these installation instructions,
 we want you to use the Windows Terminal that you just installed with the Git Bash profile.
@@ -278,7 +278,7 @@ conda init bash
 
 You will see that this modified a few configuration files, which makes `conda` visible to the terminal. Close all open terminal windows and launch a new one, you should now see that the prompt string has changed to include the word `(base)` as in the screenshot below:
 
-![](/resources_pages/imgs/add-conda-env-to-ps1.png)
+![](/assets/img/add-conda-env-to-ps1.png)
 
 If you type
 
@@ -327,7 +327,7 @@ conda 4.10.3
 > Now if you launch a new terminal instance,
 > you will see `(base)` on the same line as the rest of the prompt string as in the screenshot below.
 >
-> ![](/resources_pages/imgs/remove-newline-from-ps1.png)
+> ![](/assets/img/remove-newline-from-ps1.png)
 
 
 ## Installing Python packages
@@ -385,7 +385,7 @@ which should open a new tab in your default browser with the JupyterLab interfac
 To exit out of JupyterLab you can click `File -> Shutdown`,
 or go to the terminal from which you launched JupyterLab and hold `Ctrl` while pressing `c` twice.
 
-![](/resources_pages/imgs/jupyter_lab.PNG)
+![](/assets/img/jupyter_lab.PNG)
 
 > **Note:** we will use many more packages than those listed above across the MDS program, however we will manage these using virtual environments (which you will learn about in DSCI 521: Platforms for Data Science).
 
@@ -441,19 +441,19 @@ Download the Windows preview version of RStudio Desktop (not Pro) from <https://
 
 To see if you were successful, try opening RStudio by clicking on its icon. It should open and looks something like this picture below:
 
-![](/resources_pages/imgs/RStudio.png)
+![](/assets/img/RStudio.png)
 
 Next, we will make sure that Rstudio uses the same directories as R from terminal for its configuration. To do this, we will need to set an environmental variable in Windows. First, open the start menu, type "env" and select the match that reads "Edit the system environment variables". Click the button at the bottom that reads "Environmental Variables...":
 
-![](/resources_pages/imgs/sys-props-env-vars.png)
+![](/assets/img/sys-props-env-vars.png)
 
 Under "User variable" click the "New..." button:
 
-![](/resources_pages/imgs/env-vars-new-user-var.png)
+![](/assets/img/env-vars-new-user-var.png)
 
 And type in `R_USER` as the "Variable name" and `C:\Users\username` as the "Variable value", replacing `username` with your actual user name (if you don't know your user name, look at the top of the screenshot above where it says "User variables for your_username"):
 
-![](/resources_pages/imgs/new-user-var-values.png)
+![](/assets/img/new-user-var-values.png)
 
 Click "OK" on all of the three windows we opened above and you're done! If you open the console in RStudio and also R from the Windows Terminal (open Windows Terminal, type `R`, and then press `enter`) and type the following in both:
 
@@ -475,7 +475,7 @@ and making sure that it is pointing to the correct folder.
 Now we are going to change RStudio’s *Insert Pipe* shortcut so that it inserts the [new native pipe operator `|>`](https://blog.rstudio.com/2021/06/09/rstudio-v1-4-update-whats-new/). 
 Go to `Tools > Global Options > Code > Editing` and tick the following option:
 
-![](/resources_pages/imgs/new-pipe-rstudio.png)
+![](/assets/img/new-pipe-rstudio.png)
 
 Once the change is made you can try in the RStudio console `Ctrl` + `Shift` + `m` to check if works.
 
@@ -528,11 +528,11 @@ jupyter lab
 
 A browser should have launched and you should see a page that looks like the screenshot below. Now click on "R" notebook (circled in red on the screenshot below) to launch an JupyterLab with an R kernel.
 
-![](/resources_pages/imgs/jupyter_lab_r_kernel.png)
+![](/assets/img/jupyter_lab_r_kernel.png)
 
 Sometimes a kernel loads, but doesn't work as expected. To test whether your installation was done correctly now type `library(tidyverse)` in the code cell and click on the run button to run the cell. If your R kernel works you should see something like the image below:
 
-![](/resources_pages/imgs/jupyter_lab_r_kernel2.png)
+![](/assets/img/jupyter_lab_r_kernel2.png)
 
 To improve the experience of using R in JupyterLab,
 we will add keyboard shortcuts for inserting the common R operators `<-` and `|>`.
@@ -578,7 +578,7 @@ hit the small floppy disk in the top right (or `Ctrl` + `s`)
 to save the settings.
 Here is a screenshot of what it looks like with the settings saved:
 
-![](/resources_pages/imgs/r-jl-text-shortcuts.png)
+![](/assets/img/r-jl-text-shortcuts.png)
 
 To check that the extension is working,
 open JupyterLab,
@@ -683,9 +683,9 @@ Now try exporting a notebook by clicking
 
 Later in the program, we will be using `make` to automate our analysis scripts. [Download `make` from this URL](https://downloads.sourceforge.net/project/ezwinports/make-4.3-without-guile-w32-bin.zip). Click on the downloaded zip-file to open it in the File Explorer and click the button in the "Extract" tab that reads "Extract all". Change the extract location to `C:\Users\YOUR_USERNAME\make-4.3` (substituting in your actual username instead of `YOUR_USERNAME`) and click "Extract". See the screenshots below if you're unsure what to click.
 
-![](/resources_pages/imgs/extract-make.png)
+![](/assets/img/extract-make.png)
 
-![](/resources_pages/imgs/extract-make-path.png)
+![](/assets/img/extract-make-path.png)
 
 > **Note:** It is advisable to show file extensions by default in the Windows File Explorer. Click the `View` tab and check the box next to `File name extensions`.
 
@@ -735,7 +735,7 @@ We will be using PostgreSQL as our database management system. You can [download
 
 To test if the installation was successful open the `SQL Shell` app from the Start menu. You will be asked to setup your configuration, accept the default value (the one within square brackets) for the first four values by pressing enter four times, then type in your password and press enter one last time. It should look like this if it is working correctly:
 
-![](/resources_pages/imgs/psql-windows.png)
+![](/assets/img/psql-windows.png)
 
 ## Docker
 
@@ -784,7 +784,7 @@ For more examples and ideas, visit:
 
 The real magic of VS Code is in the extensions that let you add languages, debuggers, and tools to your installation to support your specific workflow. From within VS Code you can open up the [Extension Marketplace](https://code.visualstudio.com/docs/editor/extension-gallery) to browse and install extensions by clicking on the Extensions icon in the Activity Bar indicated in the figure below.
 
-![](/resources_pages/imgs/vscode.png)
+![](/assets/img/vscode.png)
 
 To install an extension, you simply search for it in the search bar, click the extension you want, and then click "Install". There are extensions available to make almost any workflow or task you are interested in more efficient! Here we are interested in setting up VS Code as a Python IDE. To do this, search for and install the following extensions:
 
@@ -877,110 +877,6 @@ man() {
     $1 --help | less
 }
 ```
-
-Finally, download and save the MDS help script via the following command.
-
-```
-curl -Sso ~/.mds-help.sh https://raw.githubusercontent.com/UBC-MDS/UBC-MDS.github.io/master/resources_pages/mds-help.sh
-```
-
-Open a new terminal and type `mds-help`,
-your terminal should display
-the most important terminal commands we will be learning in MDS.
-You don't need to memorize these now,
-just remember that if you ever forget how to do something with `bash`, `git` or `conda`,
-you can type `mds-help` in your terminal
-and use it as a reference.
-
-## Post-installation notes
-
-You have completed the installation instructions, well done 🙌!
-We have created a script to help you check that your installation was successful,
-and to provide instructions for how you can troubleshoot any potential issues.
-To run this script,
-please execute the following command from your terminal.
-
-```
-bash <(curl -Ss https://raw.githubusercontent.com/UBC-MDS/UBC-MDS.github.io/master/resources_pages/check-setup-mds.sh)
-```
-
-The output from running the script will look something like this:
-
-````
-# MDS setup check 1.1.0
-
-If a program or package is marked as MISSING,
-this means that you are missing the required version of that program or package.
-Either it is not installed at all or the wrong version is installed.
-The required version is indicated with a number and an asterisk (*),
-e.g. 4.* means that all versions starting with 4 are accepted (4.0.1, 4.2.5, etc).
-
-You can run the following commands to find out which version
-of a program or package is installed (if any):
-```
-name_of_program --version  # For system programs
-conda list  # For Python packages
-R -q -e "installed.packages()[,c(Package, Version)]"  # For R packages
-```
-
-Checking program and package versions...
-
-## Operating system
-Microsoft Windows 10 Education
-64-bit
-10.0.19044
-
-## System programs
-MISSING   psql 13.*
-OK        rstudio 1.4.1725
-OK        R 4.1.0 (2021-05-18) -- "Camp Pontanezen"
-OK        python 3.10.0
-OK        conda 4.10.3
-OK        bash 4.4.23(1)-release (x86_64-pc-msys)
-OK        git 2.32.0.windows.2
-OK        make 4.3
-OK        latex 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX)
-OK        tlmgr revision 59291 (2021-05-21 05:14:40 +0200)
-OK        docker 20.10.7, build f0df350
-OK        code 1.58.2
-
-## Python packages
-MISSING   jupyterlab=3.*
-OK        pandas=1.3.0
-OK        flake8=3.9.2
-MISSING   black=21.*
-MISSING   nodejs=15.*
-OK        jupytext=1.11.4
-OK        jupyterlab-git=0.30.1
-OK        jupyterlab PDF-generation was successful.
-
-## R packages
-OK        tidyverse=1.3.1
-OK        blogdown=1.3
-OK        xaringan=0.22
-OK        renv=0.13.2
-OK        IRkernel=1.2
-OK        tinytex=0.32
-OK        rmarkdown PDF-generation was successful.
-
-This output and additional configuration details have been saved to the file /c/Users/joel/check-setup-mds.log.
-together with system configuration details and any detailed error messages about PDF and HTML generation.
-You can open this folder in your file browser by typing `explorer .` (without the surrounding backticks).
-````
-
-As you can see at the end of the output,
-a log file is saved in your current directory.
-We might ask you to upload this file
-if we need to troubleshoot your installation,
-so that we can help you more effectively.
-If any of your packages are marked as "MISSING"
-you will need to figure out what is wrong and possibly reinstall them.
-Once all packages are marked as "OK"
-we will ask you to submit this log file,
-so that we can confirm that your installation was successful.
-Details on where to submit will be provided later.
-
-> **Note:** In general you should be careful running scripts unless they come from a trusted source as in this case (just like how you should be careful when downloading and installing programs on your computer).
 
 ## Attributions
 * [UBC MDS](https://ubc-mds.github.io/resources_pages/install_ds_stack_windows/)
