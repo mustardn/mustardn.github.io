@@ -79,7 +79,7 @@ run the installer and accept the default configuration for all pages except for 
 
 - On the **Select Components** page, add a Git Bash profile to Windows Terminal.
 
-    ![](/resources_pages/imgs/gitbash-terminal-profile.png)
+    ![](/assets/img/gitbash-terminal-profile.png)
 
 - On the **Choosing the default editor used by Git** page, select "Use Visual Studio Code as Git's default editor" from the drop-down menu'
 
