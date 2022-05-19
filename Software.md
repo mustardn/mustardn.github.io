@@ -12,10 +12,6 @@ subtitle: instructions for Windows
 ## Table of Contents
 
 - [Installation notes](#installation-notes){:target="_self"}
-- [UBC Student Email](#ubc-student-email){:target="_self"}
-- [Web browser](#web-browser){:target="_self"}
-- [Password manager](#password-manager){:target="_self"}
-- [Slack](#slack){:target="_self"}
 - [Visual Studio Code](#visual-studio-code){:target="_self"}
 - [GitHub](#github){:target="_self"}
 - [Git, Bash, and Windows Terminal](#git-bash-and-windows-terminal){:target="_self"}
@@ -46,26 +42,6 @@ Once you have completed these installation instructions,
 make sure to follow the post-installation notes at the end
 to check that all software is setup correctly.
 
-## UBC Student Email
-
-Please sign up for a UBC Student Email. This account will also grant you access to a range of UBC services, including Microsoft Teams and OneDrive. To do so navigate to [https://it.ubc.ca/services/email-voice-internet/ubc-student-email-service](https://it.ubc.ca/services/email-voice-internet/ubc-student-email-service) and follow the instructions under "Get Started". 
-
-## Web browser
-
-In MDS we will be using many tools that work most reliably on Google Chrome and Firefox (including our online quiz software), so we recommend that you use one of these browsers.
-
-- To install Chrome, go to [https://www.google.com/chrome/](https://www.google.com/chrome/), click on "Download Chrome" and follow the instructions on the website to finish the installation.
-- To install Firefox, go to [https://www.mozilla.org/en-US/firefox/new/](https://www.mozilla.org/en-US/firefox/new/), click on "Download Firefox" and follow the instructions on the website to finish the installation.
-
-## Password manager
-
-A password manager is an efficient and convenient measure to protect your online accounts from most common threats. While you don't strictly need to use one for any of the courses in MDS, we **highly recommend** that you set one up for your own benefit. Examples of reliable password managers include the ones built into Chrome and Firefox, [Bitwarden](https://bitwarden.com/), and [KeePassXC](https://keepassxc.org/) (if you prefer to sync your passwords manually).
-
-## Slack
-
-For MDS program announcements, course forums, and correspondence we use the communication tool Slack. Slack can be accessed via the web browser, but we recommend using the Slack app, which can be installed via downloadable file from the slack website [https://slack.com/intl/en-ca/downloads/windows](https://slack.com/intl/en-ca/downloads/windows).
-
-
 ## Visual Studio Code
 
 The open-source text editor Visual Studio Code (VS Code) is both a powerful text editor and a full-blown Python IDE, which we will use for more complex analysis. Go to [https://code.visualstudio.com/download](https://code.visualstudio.com/download) and download the windows version of VS Code. After the download has finished, run the installer and accept the default configuration for all pages except for the following:
@@ -86,16 +62,6 @@ In MDS we will use the publicly available [GitHub.com](https://github.com/) as w
 ### GitHub.com
 
 Sign up for a free account at [GitHub.com](https://github.com/) if you don't have one already.
-
-### GitHub.ubc.ca
-
-To add you to the MDS organization on [Github.ubc.ca](https://github.ubc.ca) we need you to login to [Github.ubc.ca](https://github.ubc.ca) using your CWL credentials.
-
-This step is required for
-
-- being able to store your work
-- all homework submission and grading
-- working collaboratively
 
 ## Git, Bash, and Windows Terminal
 
@@ -1017,6 +983,7 @@ Details on where to submit will be provided later.
 > **Note:** In general you should be careful running scripts unless they come from a trusted source as in this case (just like how you should be careful when downloading and installing programs on your computer).
 
 ## Attributions
+* [UBC MDS](https://ubc-mds.github.io/resources_pages/install_ds_stack_windows/)
 * [Harvard CS109](http://cs109.github.io/2015/)
 * [UBC STAT 545](http://stat545.com/packages01_system-prep.html#mac-os-system-prep) licensed under the [CC BY-NC 3.0](https://creativecommons.org/licenses/by-nc/3.0/legalcode).
 * [Software Carpentry](https://software-carpentry.org/)
