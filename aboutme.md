@@ -1,15 +1,13 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is Natalie Mustard. I am a data scientist, currently working as a consultant with Deloitte Canada.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+I took an alternate path to get where I am today. In 2016 I completed my undergrad at Queen's University, where I studied mechanical engineering. I was a member of the Baja SAE Design team, where I my roots in the auto industry started. Not long after graduation, I started my career as a Product Engineer at Ford Motor Company. I packed up my life in Toronto, and settled in Detroitte Michigan.
 
-What else do you need?
+After about 2 years, I decided mechanical engineering and the automotive industry were not for me. 
 
 ### My story
 
