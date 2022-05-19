@@ -15,6 +15,7 @@ author: Natalie Mustard
 
 navbar-links:
   About Me: "aboutme"
+  Software: "Software"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
