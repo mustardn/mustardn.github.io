@@ -15,8 +15,8 @@ author: Natalie Mustard
 
 navbar-links:
   About Me: "aboutme"
-  Software: "Software"
-  Resources:
+  Resources: "Software"
+    - Software:  
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
 
@@ -47,7 +47,7 @@ social-network-links:
 #  youtube: c/daattali
 #  medium: yourname
 #  reddit: yourname
-#  linkedin: https://www.linkedin.com/in/natalie-mustard/
+  linkedin: natalie-mustard
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Data Science software stack
-subtitle: instructions for Windows
+title: Data Science Software Stack
+subtitle: Instructions for Windows
 ---
 
 <!-- Open links in a new tab unless they have the `{:target="_self"}` attribute -->
