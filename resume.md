@@ -3,4 +3,12 @@ layout: page
 title: Resume
 ---
 
-My name is Natalie Mustard. I am a data scientist, currently working as a consultant with Deloitte Canada.
+## Education
+
+**University of Toronto**
+Master of Engineering, Industrial Engineering, Emphasis in Analytics
+Graduated 2020
+
+**Queen's University**
+Bachelor of Science, Mechanical Engineering
+Graduated 2016
