@@ -17,9 +17,9 @@ navbar-links:
   About Me: "aboutme"
   Resume: "resume"
   Resources:
-    - Software: "Software"  
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+    - Software Stack: "Software" 
+  Bookmarks:
+    - Software Development Resources for Data Scientists: "https://www.rstudio.com/blog/software-development-resources-for-data-scientists/"
 
 # --- Logo --- #
 
